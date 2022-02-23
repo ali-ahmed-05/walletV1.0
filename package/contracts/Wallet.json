@@ -1,0 +1,21 @@
+[
+  "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+  "event Paused(address account)",
+  "event Unpaused(address account)",
+  "function NFTexist(address, uint256) view returns (bool)",
+  "function admin_contract_addr() view returns (address)",
+  "function balance(address) view returns (uint256)",
+  "function createAccount(address vault_, address game, uint8 _nftType) returns (address)",
+  "function getGameSubAccounts(address game) view returns (address[])",
+  "function getUserAccounts() view returns (address[])",
+  "function idToAccount(uint256) view returns (address)",
+  "function owner() view returns (address)",
+  "function pause()",
+  "function paused() view returns (bool)",
+  "function renounceOwnership()",
+  "function setGameAccountslimit(address game, uint256 limit)",
+  "function setGameManager(address game, address _manager)",
+  "function transferOwnership(address newOwner)",
+  "function unpause()",
+  "function userAccount(address) view returns (address)"
+]

@@ -1,0 +1,4 @@
+[
+  "function deploy(address admin, address owner, address vault, address badgeNft) returns (address account)",
+  "function parameters() view returns (address admin, address owner, address vault, address badgeNft)"
+]
